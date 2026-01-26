@@ -11,5 +11,5 @@ func main() {
 }
 
 func modifyPointer(p *int) {
-	*p = 20
+	*p = 30
 }
