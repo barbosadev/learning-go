@@ -20,6 +20,5 @@ func doDefer() {
 	defer fmt.Println("Print 1")
 	defer fmt.Println("Print 2")
 	defer fmt.Println("Print 3")
-	defer fmt.Println("Print 4")
 	fmt.Println("before too")
 }
