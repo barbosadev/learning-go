@@ -12,7 +12,7 @@ type User struct {
 	ID   uint64 `json:"id"`
 }
 
-func (u User) PrintName() {
+func (u *User) PrintName() {
 	fmt.Println("I am", u.Name)
 }
 
